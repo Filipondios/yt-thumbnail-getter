@@ -17,7 +17,7 @@
   <a href="#license">License 📜</a>
 </p>
 
-<img src="preview.png" align="center">
+![imagen](https://user-images.githubusercontent.com/91225771/206780107-224a6726-e5aa-49fc-8b4e-fdfe22721ff4.png)
 
 <a name="about"></a>
 ## About 📚

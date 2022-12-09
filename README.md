@@ -29,6 +29,10 @@ Sometimes, we see a special thumbnail from a video and we want to save it. Savin
 ```bash
 pip install requests
 ```
+- You can run the applicattion with the next command:
+```bash
+python URL-getter.py
+```
 - The downladed image will be created at the same directory in where you are running the script.
 
 <a name="license"></a>

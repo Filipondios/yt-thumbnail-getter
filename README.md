@@ -17,7 +17,8 @@
   <a href="#license">License 📜</a>
 </p>
 
-
+<br>
+<p align="center"><image src="preview.png"></p>
 
 <a name="about"></a>
 ## About 📚

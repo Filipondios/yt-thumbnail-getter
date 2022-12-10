@@ -1,6 +1,7 @@
 from urllib.request import urlopen
 import os
 import requests
+from clint.textui import progress
 
 if os.name == 'nt': os.system('cls')
 else: os.system('clear')
@@ -14,6 +15,7 @@ URL = input('\nPlease enter the URL of the dessired video:\n>> ')
 # from a YouTube video. To do this, the first step is to obtain the source code of the
 # of the video from which you want to obtain the thumbnail.
 
+print('\nGetting the thumbnail URL...', end='')
 page_source = str(urlopen(URL).read()) # Get the source-code
 
 # The image can be found in the '<link rel="image_src" href=' block.
@@ -24,7 +26,17 @@ URL = page_source[index + len(to_find) + 1 :] # Cut & delete until the start of 
 
 index = URL.find('\"') # Get the index of the next char to the image URL ' " '  
 URL = URL[:index] # Get the URL only
+print("Done\n")
 
 # Now we need to download the image, now that we have it's link:
-open('thumbnail.jpg', 'wb').write(requests.get(URL).content)
+print("Downloading the thumbnail image...")
+request = requests.get(URL, stream=True)
+
+with open('thumbnail.jpg', 'wb') as f:
+    total_length = int(request.headers.get('content-length'))
+    for chunk in progress.bar(request.iter_content(chunk_size=1024), expected_size=(total_length/1024) + 1): 
+        if chunk:
+            f.write(chunk)
+            f.flush()
+
 print("")

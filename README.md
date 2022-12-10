@@ -17,7 +17,7 @@
   <a href="#license">License 📜</a>
 </p>
 
-![imagen](https://user-images.githubusercontent.com/91225771/206780107-224a6726-e5aa-49fc-8b4e-fdfe22721ff4.png)
+![imagen](https://user-images.githubusercontent.com/91225771/206872565-9aa22d05-1e6d-4bf0-a4d6-af1ff9c79e95.png)
 
 <a name="about"></a>
 ## About 📚
@@ -27,7 +27,7 @@ Sometimes, we see a special thumbnail from a video and we want to save it. Savin
 ## How to use :compass:
 - When using the script, you need to know that the ``requests`` module is a dependency. You can install it with ``pip``:
 ```bash
-pip install requests
+pip install requests clint
 ```
 - You can run the applicattion with the next command:
 ```bash

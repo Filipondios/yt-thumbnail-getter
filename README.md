@@ -8,7 +8,7 @@
 </div>
 
 <div id="info" align="center">
-  <h4>A simple script made in <a href="https://es.wikipedia.org/wiki/Python">python</a> that downloads the Thumbnail of a Youtube video.</h4>  
+  <h4>A simple script made in <a href="https://es.wikipedia.org/wiki/Python">python</a> that downloads the thumbnail of a Youtube video.</h4>  
 </div>
 
 <p align="center">
@@ -22,7 +22,7 @@
 
 <a name="about"></a>
 ## About 📚
-Sometimes, we see a special thumbnail from a video and we want to save it. Saving the video in 'favourites' it's not the better option, cause the author can delete the video. For me, the best option, is to download that thumbnail image. How? With this script.
+Sometimes we come across a special thumbnail from a video that we want to save. Saving the video in 'favorites' may not be the best option because the author can delete the video. For me, the best option is to download the thumbnail image. How can you do this? With this script.
 
 <a name="use"></a>
 ## How to use :compass:

@@ -1,6 +1,6 @@
-# Youtube thumbnail getter
-
-<div id="badges" align="center">
+<div align="center">
+  
+  # Youtube thumbnail getter
   <a> <img src="https://img.shields.io/github/license/filipondios/yt-thumbnail-getter" alt="License"/> </a>
   <a> <img src="https://img.shields.io/github/repo-size/filipondios/yt-thumbnail-getter" alt="size"> </a>
   <a> <img src="https://img.shields.io/github/languages/top/filipondios/yt-thumbnail-getter" alt="languages"> </a>
@@ -8,7 +8,7 @@
 </div>
 
 <div id="info" align="center">
-  <h4>A simple script made in <a href="https://es.wikipedia.org/wiki/Python">python</a> that downloads the Thumbnail of a video.</h4>  
+  <h4>A simple script made in <a href="https://es.wikipedia.org/wiki/Python">python</a> that downloads the Thumbnail of a Youtube video.</h4>  
 </div>
 
 <p align="center">

@@ -1,4 +1,4 @@
-# Youtube thumbnail getter <img src="https://skillicons.dev/icons?i=python" width="30">
+# Youtube thumbnail getter
 
 <div id="badges" align="center">
   <a> <img src="https://img.shields.io/github/license/filipondios/yt-thumbnail-getter" alt="License"/> </a>
